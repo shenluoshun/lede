@@ -11,7 +11,8 @@ on:
   schedule:
     - cron: 0 20 * * *
   push:
-  types: [published]
+      branches:
+        - master
 
 jobs:
 
